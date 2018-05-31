@@ -1,0 +1,17 @@
+*.DS_Store
+
+# object files
+*o
+
+
+Qt user setting files
+*.pro.user
+
+
+# meta object compiler files
+*moc
+
+
+# build folders
+*build-*
+

@@ -42,5 +42,13 @@ Added calculator.txt for submission of url to CCLE
 Submitted calculator.txt to CCLE
 Created Qt widgets app "grade_calculator". Added 8 spinboxes and dials for homework assignments and connected 3 pairs of them.
 
+### Commit 4
+Confused about whether to track build-grade_calculator-Desktop_Qt_5_10_1_clang_64bit-Debug/ (RESOLVED)
+Created .gitignore with      .DS_Store       .moc       .o          build-      .pro.user
+
 ### Resources
+Displaying images in a markdown document
 https://stackoverflow.com/questions/14494747/add-images-to-readme-md-on-github
+
+Example of Qt .gitignore
+https://github.com/github/gitignore/blob/master/Qt.gitignore
