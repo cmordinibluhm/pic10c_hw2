@@ -45,6 +45,14 @@ Created Qt widgets app "grade_calculator". Added 8 spinboxes and dials for homew
 ### Commit 4
 Confused about whether to track build-grade_calculator-Desktop_Qt_5_10_1_clang_64bit-Debug/ (RESOLVED)
 Created .gitignore with      .DS_Store       .moc       .o          build-      .pro.user
+Merged to master
+
+### Commit 5
+Every time I merge experimental I delete it and then recreate it. This seems like it might be unnecessary...
+Finished connecting the signals and slots of the eight homework dials/spinboxes. Each spinBox and dial needed its max value changed from 99 to 100.
+Added midterm 1, midterm 2, and final exam inputs.
+
+
 
 ### Resources
 Displaying images in a markdown document
