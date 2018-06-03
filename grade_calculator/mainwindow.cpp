@@ -118,3 +118,39 @@ void MainWindow::on_spinBox_final_valueChanged(int arg1)
 {
     ui->dial_final->setValue(arg1);
 }
+
+void MainWindow::on_pushButton_calculate_clicked()
+{
+    double hw_total = 0;
+    hw_total = ui->spinBox->value() + ui->spinBox_2->value() + ui->spinBox_3->value() + ui->spinBox_4->value() +
+            ui->spinBox_5->value() + ui->spinBox_6->value() + ui->spinBox_7->value() + ui->spinBox_8->value();
+    hw_total /= 8; //average the homeworks
+    double hw_percent = hw_total * .25;
+
+    //grading scheme A
+
+    double midterm1_percent = ui->spinBox_midterm1->value() * .2;
+    double midterm2_percent = ui->spinBox_midterm2->value() * .2;
+    double final_percent = ui->spinBox_final->value() * .35;
+    double total_a = hw_percent + midterm1_percent + midterm2_percent + final_percent;
+
+    ui->lcdnumber_A->display(total_a);
+
+    //grading scheme B
+
+    double better_midterm = 0;
+
+    if (ui->spinBox_midterm1->value() > ui->spinBox_midterm2->value()) {
+        better_midterm = ui->spinBox_midterm1->value();
+    } else {
+        better_midterm = ui->spinBox_midterm2->value();
+    }
+
+    double midterm_percent = better_midterm * .3;
+    double final_percent_b = ui->spinBox_final->value() * .44;
+
+    double total_b = hw_percent + midterm_percent + final_percent_b;
+
+    ui->lcdNumber_B->display(total_b);
+
+}

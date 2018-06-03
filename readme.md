@@ -52,6 +52,10 @@ Every time I merge experimental I delete it and then recreate it. This seems lik
 Finished connecting the signals and slots of the eight homework dials/spinboxes. Each spinBox and dial needed its max value changed from 99 to 100.
 Added midterm 1, midterm 2, and final exam inputs.
 
+### Commit 6
+Added a push button and a lcd number display.
+Connected push button clicked() signal to the lcd number's slot display() to calculate the average of the 8 homework assignments.
+Program now calculates scheme A (25% hw, 20% each midterm, 35% final) and scheme B (25% hw, 30% best midterm, 44% final) and displays both.
 
 
 ### Resources

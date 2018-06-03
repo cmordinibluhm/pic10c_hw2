@@ -61,6 +61,8 @@ private slots:
 
     void on_spinBox_final_valueChanged(int arg1);
 
+    void on_pushButton_calculate_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
