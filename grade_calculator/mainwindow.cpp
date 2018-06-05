@@ -14,6 +14,13 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::keyPressEvent(QKeyEvent *event)
+{
+    if (event->key() == Qt::Key_Space) {
+        ui->pushButton_calculate->click();
+    }
+}
+
 
 void MainWindow::on_spinBox_valueChanged(int arg1)
 {
@@ -152,5 +159,15 @@ void MainWindow::on_pushButton_calculate_clicked()
     double total_b = hw_percent + midterm_percent + final_percent_b;
 
     ui->lcdNumber_B->display(total_b);
+
+}
+
+void MainWindow::on_comboBox_currentIndexChanged(int index)
+{
+
+}
+
+void MainWindow::on_actionPIC_10A_triggered()
+{
 
 }

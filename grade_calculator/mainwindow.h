@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QKeyEvent>
 
 namespace Ui {
 class MainWindow;
@@ -14,6 +15,8 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
+
+    void keyPressEvent(QKeyEvent * event);
 
 private slots:
 
@@ -62,6 +65,10 @@ private slots:
     void on_spinBox_final_valueChanged(int arg1);
 
     void on_pushButton_calculate_clicked();
+
+    void on_comboBox_currentIndexChanged(int index);
+
+    void on_actionPIC_10A_triggered();
 
 private:
     Ui::MainWindow *ui;

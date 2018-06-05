@@ -7,8 +7,72 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>451</height>
+    <height>459</height>
    </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>106</red>
+        <green>179</green>
+        <blue>236</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>106</red>
+        <green>179</green>
+        <blue>236</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>106</red>
+        <green>179</green>
+        <blue>236</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>106</red>
+        <green>179</green>
+        <blue>236</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
@@ -20,10 +84,16 @@
       <x>470</x>
       <y>10</y>
       <width>101</width>
-      <height>341</height>
+      <height>349</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
      <item>
       <widget class="QLabel" name="label_midterm1">
        <property name="sizePolicy">
@@ -31,6 +101,14 @@
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+         <pointsize>15</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
        </property>
        <property name="text">
         <string>Midterm 1</string>
@@ -48,8 +126,48 @@
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
        <property name="maximum">
         <number>100</number>
+       </property>
+       <property name="notchesVisible">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -68,6 +186,14 @@
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+         <pointsize>15</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="text">
         <string>Midterm 2</string>
        </property>
@@ -84,8 +210,48 @@
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
        <property name="maximum">
         <number>100</number>
+       </property>
+       <property name="notchesVisible">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -116,6 +282,15 @@
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+         <pointsize>21</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <kerning>true</kerning>
+        </font>
+       </property>
        <property name="text">
         <string>Final Exam</string>
        </property>
@@ -126,8 +301,60 @@
      </item>
      <item>
       <widget class="QDial" name="dial_final">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="mouseTracking">
+        <bool>false</bool>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
        <property name="maximum">
         <number>100</number>
+       </property>
+       <property name="notchesVisible">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -162,12 +389,52 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>215</red>
+          <green>235</green>
+          <blue>213</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>215</red>
+          <green>235</green>
+          <blue>213</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>106</red>
+          <green>179</green>
+          <blue>236</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="smallDecimalPoint">
+     <bool>false</bool>
+    </property>
    </widget>
    <widget class="Line" name="line">
     <property name="geometry">
      <rect>
       <x>17</x>
-      <y>200</y>
+      <y>211</y>
       <width>421</width>
       <height>20</height>
      </rect>
@@ -180,10 +447,16 @@
     <property name="geometry">
      <rect>
       <x>440</x>
-      <y>40</y>
+      <y>51</y>
       <width>16</width>
       <height>341</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
@@ -198,6 +471,43 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>215</red>
+          <green>235</green>
+          <blue>213</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>215</red>
+          <green>235</green>
+          <blue>213</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>106</red>
+          <green>179</green>
+          <blue>236</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
    </widget>
    <widget class="QLabel" name="label_9">
     <property name="geometry">
@@ -207,6 +517,14 @@
       <width>81</width>
       <height>21</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>Scheme A</string>
@@ -221,15 +539,23 @@
       <height>21</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="text">
      <string>Scheme B</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>59</y>
+      <y>70</y>
       <width>411</width>
       <height>141</height>
      </rect>
@@ -237,6 +563,14 @@
     <layout class="QGridLayout" name="gridLayout">
      <item row="0" column="0" alignment="Qt::AlignHCenter">
       <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="text">
         <string>Homework 1</string>
        </property>
@@ -244,6 +578,14 @@
      </item>
      <item row="0" column="1" alignment="Qt::AlignHCenter">
       <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="text">
         <string>Homework 2</string>
        </property>
@@ -251,6 +593,14 @@
      </item>
      <item row="0" column="2" alignment="Qt::AlignHCenter">
       <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="text">
         <string>Homework 3</string>
        </property>
@@ -258,6 +608,14 @@
      </item>
      <item row="0" column="3" alignment="Qt::AlignHCenter">
       <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="text">
         <string>Homework 4</string>
        </property>
@@ -265,6 +623,43 @@
      </item>
      <item row="1" column="0">
       <widget class="QDial" name="dial">
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
        <property name="layoutDirection">
         <enum>Qt::LeftToRight</enum>
        </property>
@@ -274,26 +669,149 @@
        <property name="maximum">
         <number>100</number>
        </property>
+       <property name="notchesVisible">
+        <bool>true</bool>
+       </property>
       </widget>
      </item>
      <item row="1" column="1">
       <widget class="QDial" name="dial_2">
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
        <property name="maximum">
         <number>100</number>
+       </property>
+       <property name="notchesVisible">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="2">
       <widget class="QDial" name="dial_3">
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
        <property name="maximum">
         <number>100</number>
+       </property>
+       <property name="notchesVisible">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="3">
       <widget class="QDial" name="dial_4">
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
        <property name="maximum">
         <number>100</number>
+       </property>
+       <property name="notchesVisible">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -327,11 +845,11 @@
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>220</y>
+      <y>231</y>
       <width>411</width>
       <height>141</height>
      </rect>
@@ -339,6 +857,14 @@
     <layout class="QGridLayout" name="gridLayout_2">
      <item row="0" column="0" alignment="Qt::AlignHCenter">
       <widget class="QLabel" name="label_5">
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="text">
         <string>Homework 5</string>
        </property>
@@ -346,6 +872,14 @@
      </item>
      <item row="0" column="1" alignment="Qt::AlignHCenter">
       <widget class="QLabel" name="label_6">
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="text">
         <string>Homework 6</string>
        </property>
@@ -353,6 +887,14 @@
      </item>
      <item row="0" column="2" alignment="Qt::AlignHCenter">
       <widget class="QLabel" name="label_7">
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="text">
         <string>Homework 7</string>
        </property>
@@ -360,6 +902,14 @@
      </item>
      <item row="0" column="3" alignment="Qt::AlignHCenter">
       <widget class="QLabel" name="label_8">
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="text">
         <string>Homework 8</string>
        </property>
@@ -367,29 +917,192 @@
      </item>
      <item row="1" column="0">
       <widget class="QDial" name="dial_5">
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
        <property name="maximum">
         <number>100</number>
+       </property>
+       <property name="notchesVisible">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="1">
       <widget class="QDial" name="dial_6">
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
        <property name="maximum">
         <number>100</number>
+       </property>
+       <property name="wrapping">
+        <bool>false</bool>
+       </property>
+       <property name="notchesVisible">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="2">
       <widget class="QDial" name="dial_7">
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
        <property name="maximum">
         <number>100</number>
+       </property>
+       <property name="notchesVisible">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="3">
       <widget class="QDial" name="dial_8">
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>236</red>
+             <green>214</green>
+             <blue>173</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
        <property name="maximum">
         <number>100</number>
+       </property>
+       <property name="notchesVisible">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -423,6 +1136,61 @@
      </item>
     </layout>
    </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>391</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <item>
+     <property name="text">
+      <string>PIC 10A  Beginning Programming</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PIC 10B  Intermediate Programming</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PIC 10C  Advanced Programming</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>380</y>
+      <width>60</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>[Space]</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
@@ -433,26 +1201,72 @@
      <height>22</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuGrade_Calculator">
-    <property name="title">
-     <string>Grade Calculator</string>
-    </property>
-   </widget>
-   <widget class="QMenu" name="menuPIC_10_C">
-    <property name="title">
-     <string>PIC 10 C</string>
-    </property>
-   </widget>
-   <widget class="QMenu" name="menuPIC_10_B">
-    <property name="title">
-     <string>PIC 10 B</string>
-    </property>
-   </widget>
-   <addaction name="menuGrade_Calculator"/>
-   <addaction name="menuPIC_10_B"/>
-   <addaction name="menuPIC_10_C"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>93</red>
+         <green>145</green>
+         <blue>236</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>93</red>
+         <green>145</green>
+         <blue>236</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>93</red>
+         <green>145</green>
+         <blue>236</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>93</red>
+         <green>145</green>
+         <blue>236</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
    <attribute name="toolBarArea">
     <enum>TopToolBarArea</enum>
    </attribute>
@@ -461,9 +1275,19 @@
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="actionPIC_10_B">
+  <action name="actionPIC_10A">
    <property name="text">
-    <string>PIC 10 B</string>
+    <string>PIC 10A</string>
+   </property>
+  </action>
+  <action name="actionPIC_10B">
+   <property name="text">
+    <string>PIC 10B</string>
+   </property>
+  </action>
+  <action name="actionPIC_10C">
+   <property name="text">
+    <string>PIC 10C</string>
    </property>
   </action>
  </widget>
