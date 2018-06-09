@@ -71,6 +71,9 @@ Regarding this, he gave two possible solutions:
 1. Toggling all the widgets associated with one course to not visible and all the widgets for another course to visible.
 2. Using Tab widgets (recommends this approach)
 
+### Commit 8
+Somehow my .pro file got deleted and I commited that deletion. I had to checkout the previous commit and restore the file.
+
 ### Resources
 Displaying images in a markdown document
 https://stackoverflow.com/questions/14494747/add-images-to-readme-md-on-github

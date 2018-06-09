@@ -5,7 +5,7 @@
 
 
 # Qt user setting files
-*.pro.user
+*.user
 
 
 # meta object compiler files
