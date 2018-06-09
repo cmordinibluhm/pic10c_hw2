@@ -66,9 +66,31 @@ private slots:
 
     void on_pushButton_calculate_clicked();
 
-    void on_comboBox_currentIndexChanged(int index);
+    void on_dial_13_valueChanged(int value);
 
-    void on_actionPIC_10A_triggered();
+    void on_spinBox_13_valueChanged(int arg1);
+
+    void on_dial_14_valueChanged(int value);
+
+    void on_spinBox_14_valueChanged(int arg1);
+
+    void on_dial_15_valueChanged(int value);
+
+    void on_spinBox_15_valueChanged(int arg1);
+
+    void on_dial_midterm1_2_valueChanged(int value);
+
+    void on_spinBox_midterm1_2_valueChanged(int arg1);
+
+    void on_dial_final_3_valueChanged(int value);
+
+    void on_spinBox_9_valueChanged(int arg1);
+
+    void on_dial_final_2_valueChanged(int value);
+
+    void on_spinBox_final_2_valueChanged(int arg1);
+
+    void on_pushButton_calculate_2_clicked();
 
 private:
     Ui::MainWindow *ui;

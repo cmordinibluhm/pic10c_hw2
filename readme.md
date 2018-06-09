@@ -72,7 +72,19 @@ Regarding this, he gave two possible solutions:
 2. Using Tab widgets (recommends this approach)
 
 ### Commit 8
-Somehow my .pro file got deleted and I commited that deletion. I had to checkout the previous commit and restore the file.
+Somehow my .pro file got deleted and I commited that deletion. I had to checkout the previous commit and restore the file using the following
+
+$ git rev-list -n 1 HEAD -- <file>
+$ git checkout <commit>^ -- <file>
+
+### Commit 9
+Added TabWidgets to allow for multiple classes. Worked like a charm.
+
+Connected all the dials and spinboxes for the PIC 10C grading tab and set up the calculations for the two grading schemes. Everything works great. Made it so that
+pressing the space key goes ahead and calculates both classes grades.
+
+Project Complete.
+
 
 ### Resources
 Displaying images in a markdown document
@@ -86,4 +98,7 @@ https://www.youtube.com/watch?v=3SIj6zL6mmA
 
 Calculating Weighted Averages
 http://www.blacksdomain.com/files/Notes/Calculating_WA.php
+
+Restoring a File Deleted from a Previous Commit
+https://www.quora.com/How-can-I-recover-a-file-I-deleted-in-my-local-repo-from-the-remote-repo-in-Git
 
