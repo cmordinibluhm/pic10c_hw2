@@ -1,4 +1,7 @@
-# PIC10C: assignment 2: grade calculator
+# Grade Calculator GUI with Qt
+
+![](https://github.com/cmordinibluhm/pic10c_hw2/blob/master/grade_calc_screenshot.png)
+
 
 ## Table of Contents
 - [Goal](#goal)
@@ -7,9 +10,9 @@
 - [Project Log](#project-log)
 
 ## Goal
-Get familiar with Qt, Qt Designer, and Qt creator in general
+Get familiar with Qt, Qt Designer, and Qt Creator in general
 
-![alt text](https://bytebucket.org/rikis-salazar/10c-spring18-class-website/raw/a4a4fc64ba01b99a2a2cdb5b2f661741a55cc745/assignments/hw2/grade-breakdown.png)
+![](https://bytebucket.org/rikis-salazar/10c-spring18-class-website/raw/a4a4fc64ba01b99a2a2cdb5b2f661741a55cc745/assignments/hw2/grade-breakdown.png)
 
 
 ## Rubric
